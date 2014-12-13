@@ -1,9 +1,9 @@
 {
-  "name": "meanr",
+  "name": "meanrcl",
   "version": "0.0.0",
-  "homepage": "https://github.com/nss-cohort-2014-06-07/meanr",
+  "homepage": "https://github.com/brnacl/meanrcl",
   "authors": [
-    "Chyld Medford <chyld.medford@gmail.com>"
+    "Brian Arenz <brianarenz@gmail.com>"
   ],
   "description": "The MEAN Template",
   "license": "MIT",
