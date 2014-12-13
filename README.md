@@ -1,47 +1,23 @@
-## name of project
-### Code Badges
-build status icon
-coverage status icon
+MEAN TEMPLATE
+-------------
 
-### Screenshots
-![Image1](https://raw.githubusercontent.com/nss-cohort-2014-06-07/express-template/master/docs/screenshots/one.jpg)
-![Image2](https://raw.githubusercontent.com/nss-cohort-2014-06-07/express-template/master/docs/screenshots/two.jpg)
+Initial Install:
+./setup.sh
 
-### Description
-write a description about your project
-
-### Models
-```
-Model 1
-```
-
-```
-Model 2
-```
-
-### Database
-```
-Collecion 1
-```
-
-```
-Collection 2
-```
-
-### Features
-- [x] Feature 1
-- [ ] Feature 2
-- [x] Feature 3
-
-### Running Tests
-```bash
+Updated packages:
 $ npm install
+$ bower install
+
+To Run Tests:
 $ npm test
-```
 
-### Contributors
-- [Chyld Medford](https://github.com/chyld)
+Grunt:
+$ grunt
+$ grunt build
+$ grunt deploy
+$ grunt watch
 
-### License
-[MIT](LICENSE)
+To Run App:
+$ PORT=#{PORT} DB=mongodb://localhost/#{DATABASE NAME} npm start
+
 

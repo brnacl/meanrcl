@@ -1,19 +1,6 @@
-#!/bin/bash
-
-if [ -z "$2" ] ; then
-  echo "Enter a GitHub Repository URL FOLLOWED by the Application Name"
-  exit 1
-fi
-
-# re-wiring git repository
-rm -rf .git
-
 # nuking old node modules
 sudo rm -rf ~/.npm
 rm -rf node_modules
-
-# changing application name
-find . -type f \( -iname \*.js -o -iname \*.jade \) -print -exec sed -i "" "s/meanr/$2/g" {} \;
 
 # installing new node production modules
 npm install async --save
@@ -60,17 +47,11 @@ bower install underscore --save
 bower install jquery --save
 bower install toastr --save
 
-# adding files to new git repository
-git init
-git remote add origin $1
-git add .
-git commit -am "initial files"
-
 # create initial public directory
 grunt deploy
 
 # running all tests
 npm test
 
-echo "Success! Now push your initial commit to Github"
+echo "Successfully installed!"
 exit 0

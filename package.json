@@ -1,5 +1,5 @@
 {
-  "name": "meanr",
+  "name": "meanrcl",
   "version": "0.0.0",
   "description": "The MEAN Template",
   "engines": {
@@ -7,14 +7,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/nss-cohort-2014-06-07/meanr"
+    "url": "https://github.com/brnacl/meanrcl"
   },
-  "author": "Chyld Medford <chyld.medford@gmail.com>",
+  "author": "Brian Arenz <brianarenz@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nss-cohort-2014-06-07/meanr/issues"
+    "url": "https://github.com/brnacl/meanrcl/issues"
   },
-  "homepage": "https://github.com/nss-cohort-2014-06-07/meanr",
+  "homepage": "https://github.com/brnacl/meanrcl",
   "directories": {
     "test": "test"
   },
