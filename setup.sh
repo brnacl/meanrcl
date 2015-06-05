@@ -1,4 +1,4 @@
-# nuking old node modules
+# nuking old node module
 sudo rm -rf ~/.npm
 rm -rf node_modules
 
